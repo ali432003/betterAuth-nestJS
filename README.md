@@ -98,7 +98,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ```
 PORT=5000
 BETTER_AUTH_SECRET=7Ba8mkwrOeyt5FQqtjPQR6TpVheYYl6l
-BETTER_AUTH_BASE_URL=http://localhost:6543
+BETTER_AUTH_URL=http://localhost:5000
 FRONTEND_URL=http://localhost:5173
 GOOGLE_CLIENT_ID=483207629214-055hmfcljktlcq3n3vagle7ipjajrkur.apps.googleusercontent.com
 GOOGLE_CLIENT_SECRET=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
