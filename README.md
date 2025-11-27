@@ -97,27 +97,15 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ```
 PORT=5000
-BETTER_AUTH_SECRET=7Ba8mkwrOeyt5FQqtjPQR6TpVheYYl6l
+BETTER_AUTH_SECRET='your secret'
 BETTER_AUTH_URL=http://localhost:5000
 FRONTEND_URL=http://localhost:5173
-GOOGLE_CLIENT_ID=483207629214-055hmfcljktlcq3n3vagle7ipjajrkur.apps.googleusercontent.com
-GOOGLE_CLIENT_SECRET=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
-CLOUDINARY_CLOUD_NAME=djv0vl33b
-CLOUDINARY_API_KEY=888681591357636
-CLOUDINARY_API_SECRET=by5QAdnIlAkl7mEYkr3ZqteA2jY
-
-# This was inserted by `prisma init`:
-# Environment variables declared in this file are automatically made available to Prisma.
-# See the documentation for more detail: https://pris.ly/d/prisma-schema#accessing-environment-variables-from-the-schema
-
-# Prisma supports the native connection string format for PostgreSQL, MySQL, SQLite, SQL Server, MongoDB and CockroachDB.
-# See the documentation for all the connection string options: https://pris.ly/d/connection-strings
-
-# The following `prisma+postgres` URL is similar to the URL produced by running a local Prisma Postgres 
-# server with the `prisma dev` CLI command, when not choosing any non-default ports or settings. The API key, unlike the 
-# one found in a remote Prisma Postgres URL, does not contain any sensitive information.
-
-DATABASE_URL='postgresql://neondb_owner:npg_QTF0pq4oAcvb@ep-holy-surf-advooczo-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
+GOOGLE_CLIENT_ID='your-google-id'
+GOOGLE_CLIENT_SECRET='your-google-secret'
+CLOUDINARY_CLOUD_NAME='your-cloud-name'
+CLOUDINARY_API_KEY='your-api-key'
+CLOUDINARY_API_SECRET='your-secret'
+DATABASE_URL='database-url'
 ```
 
 ## License
